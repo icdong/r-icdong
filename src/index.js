@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.css';
 
-import Game from './components/app/App'
+// 导入store
+// import store from './store'
 
-// ========================================
+// 导入项目组件
+// import Game from './components/app/App'
+import Home from './components/home/Home'
+
 
 ReactDOM.render(
-    <Game />,
+    <Home />,
     document.getElementById('root')
 );
