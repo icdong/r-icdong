@@ -7,11 +7,10 @@ import './index.css';
 // import store from './store'
 
 // 导入项目组件
-// import Game from './components/app/App'
-import Home from './components/home/Home'
+import App from './components/App'
 
 
 ReactDOM.render(
-    <Home />,
+    <App />,
     document.getElementById('root')
 );
