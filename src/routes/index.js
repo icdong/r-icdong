@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
 
-import Home from '../containers/home/Home';
-import Game from '../containers/page/Game';
-import Page1 from '../containers/page/Page1';
-import Page2 from '../containers/page/Page2';
+import Home from '../pages/home/Home';
+import Game from '../pages/page/Game';
+import Page1 from '../pages/page/Page1';
+import Page2 from '../pages/page/Page2';
  
 class Routes extends React.Component {
     render() {
