@@ -1,7 +1,7 @@
 // 导入项目reducers
 
 // 基于原有state根据action得到新的state
-function counter(state = { count: 0 }, action) {
+const counter = (state = { count: 0 }, action) => {
     const count = state.count
     switch (action.type) {
       case 'increase':
@@ -12,5 +12,4 @@ function counter(state = { count: 0 }, action) {
   }
 
 // 根据reducer函数通过createStore()创建store
-const rootReducer = combineReducers(allReducers);
-export default rootReducer;
+export default counter;

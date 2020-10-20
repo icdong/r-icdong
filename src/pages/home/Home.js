@@ -1,6 +1,26 @@
-import React from 'react';
+import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import { Button } from 'antd';
+import { connect } from 'react-redux'
+import { mapStateToProps, mapDispatchToProps} from '../../store/actions'
+
+class Counter extends Component {
+    render() {
+        const { value, onIncreaseClick } = this.props
+        // const value = this.props.value
+        return (
+            <div>
+                <span>{value}</span>
+                <button onClick={onIncreaseClick}> +1</button>
+            </div>
+        )
+    }
+}
+
+const CounterConnect = connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(Counter)
 
 class Home extends React.Component{
 
@@ -31,9 +51,10 @@ class Home extends React.Component{
                 <Link to="/page2/" >
                     <div>Page2</div>
                 </Link>
+                <CounterConnect />
             </div>
         );
     }
 }
- 
-export default Home;
+
+export default Home

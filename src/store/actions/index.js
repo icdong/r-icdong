@@ -1,7 +1,6 @@
 
 const increaseAction = { type: 'increase' }
 
-
 //  将state映射到Counter组件的props
 export const mapStateToProps = state => {
     return {
