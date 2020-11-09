@@ -7,7 +7,7 @@ import './index.less';
 import store from './store'
 
 // 导入项目组件
-import App from './components/App'
+import App from './App'
 
 
 ReactDOM.render(
