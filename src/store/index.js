@@ -1,5 +1,5 @@
 
-import {createStore} from 'redux';
+import { createStore } from 'redux';
 import counter from './reducers';
 
 // store是唯一的
