@@ -1,8 +1,15 @@
+/*
+ * @Description: 
+ * @Author: Daito Chai
+ * @Date: 2020-12-16 20:57:17
+ * @LastEditors: Daito Chai
+ * @LastEditTime: 2021-03-12 01:34:57
+ */
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import { Button } from 'antd';
 import { connect } from 'react-redux'
-import { mapStateToProps, mapDispatchToProps} from '../../store/actions'
+import { mapStateToProps, mapDispatchToProps } from '../../store/actions'
 
 class Counter extends Component {
     render() {
@@ -11,7 +18,7 @@ class Counter extends Component {
         return (
             <div>
                 <span>{value}</span>
-                <button onClick={onIncreaseClick}> +1</button>
+                <Button onClick={onIncreaseClick}> +1</Button>
             </div>
         )
     }
@@ -22,7 +29,7 @@ const CounterConnect = connect(
     mapDispatchToProps
 )(Counter)
 
-class Home extends React.Component{
+class Home extends React.Component {
 
     constructor(props) {
         super(props);
@@ -38,7 +45,7 @@ class Home extends React.Component{
             <div>
                 <div>This is Home!</div>
                 <Button type="primary"
-                    onClick={() => {this.pushRoute('/game')}}>
+                    onClick={() => { this.pushRoute('/game') }}>
                     Button
                 </Button>
 
