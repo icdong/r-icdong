@@ -3,7 +3,7 @@
  * @Author: Daito Chai
  * @Date: 2020-12-16 20:57:17
  * @LastEditors: Daito Chai
- * @LastEditTime: 2021-03-12 01:52:26
+ * @LastEditTime: 2021-03-12 14:59:14
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -30,3 +30,4 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
