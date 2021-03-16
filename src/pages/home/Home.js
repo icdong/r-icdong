@@ -3,12 +3,13 @@
  * @Author: Daito Chai
  * @Date: 2020-12-16 20:57:17
  * @LastEditors: Daito Chai
- * @LastEditTime: 2021-03-16 16:35:32
+ * @LastEditTime: 2021-03-16 21:23:15
  */
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import { Button } from 'antd';
 import { connect } from 'react-redux'
+import './Home.less'
 
 import { mapStateToProps, mapDispatchToProps } from '../../store/actions/counterAction'
 class Counter extends Component {
@@ -43,7 +44,7 @@ class Home extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="home">
                 <div>This is Home!</div>
                 <Button type="primary"
                     onClick={() => { this.pushRoute('/game') }}>

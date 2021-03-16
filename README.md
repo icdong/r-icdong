@@ -1,3 +1,26 @@
+<!--
+ * @Description:
+ * @Author: Daito Chai
+ * @Date: 2020-12-16 20:57:17
+ * @LastEditors: Daito Chai
+ * @LastEditTime: 2021-03-16 21:10:34
+-->
+
+# 设置 ss
+
+git config --global http.proxy 'socks5://127.0.0.1:1080'
+git config --global https.proxy 'socks5://127.0.0.1:1080'
+
+# 设置代理
+
+git config --global https.proxy http://127.0.0.1:1080
+git config --global https.proxy https://127.0.0.1:1080
+
+# 取消代理
+
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
