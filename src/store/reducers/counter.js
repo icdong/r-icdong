@@ -3,7 +3,7 @@
  * @Author: Daito Chai
  * @Date: 2021-03-15 14:12:53
  * @LastEditors: Daito Chai
- * @LastEditTime: 2021-03-15 15:21:00
+ * @LastEditTime: 2021-03-16 15:56:39
  */
 // 初始化state
 let initState = {
@@ -15,7 +15,7 @@ const counter = (state = initState, action) => {
     const count = state.count
     switch (action.type) {
         case 'increase':
-            return { count: count + 1 }
+            return { count: count + 3 }
         default:
             return state
     }

@@ -1,9 +1,9 @@
 /*
- * @Description: 
+ * @Description: Component模式下hooks使用redux
  * @Author: Daito Chai
  * @Date: 2020-12-16 20:57:17
  * @LastEditors: Daito Chai
- * @LastEditTime: 2021-03-16 15:19:38
+ * @LastEditTime: 2021-03-16 16:35:32
  */
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
@@ -57,7 +57,7 @@ class Home extends React.Component {
                     <div>Page1</div>
                 </Link>
                 <Link to="/page2/" >
-                    <div>Page2</div>
+                    <div>hooks模式使用redux</div>
                 </Link>
                 <CounterConnect />
             </div>
