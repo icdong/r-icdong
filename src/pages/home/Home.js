@@ -3,15 +3,14 @@
  * @Author: Daito Chai
  * @Date: 2020-12-16 20:57:17
  * @LastEditors: Daito Chai
- * @LastEditTime: 2021-03-16 09:47:04
+ * @LastEditTime: 2021-03-16 15:19:38
  */
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import { Button } from 'antd';
 import { connect } from 'react-redux'
 
-import { mapStateToProps, mapDispatchToProps } from '../../store/actions/actions'
-
+import { mapStateToProps, mapDispatchToProps } from '../../store/actions/counterAction'
 class Counter extends Component {
     render() {
         const { value, onIncreaseClick } = this.props
