@@ -1,18 +1,19 @@
 /*
- * @Description: 
+ * @Description: 项目入口
  * @Author: Daito Chai
  * @Date: 2020-12-16 20:57:17
  * @LastEditors: Daito Chai
- * @LastEditTime: 2021-03-12 14:59:14
+ * @LastEditTime: 2021-03-15 14:37:16
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.less';
 import { Provider } from 'react-redux'
+
+import './index.less';
 import reportWebVitals from './reportWebVitals';
 
 // 导入store
-import store from './store'
+import store from './store/store'
 
 // 导入项目组件
 import App from './App';

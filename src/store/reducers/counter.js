@@ -1,7 +1,17 @@
-// 导入项目reducers
+/*
+ * @Description: 
+ * @Author: Daito Chai
+ * @Date: 2021-03-15 14:12:53
+ * @LastEditors: Daito Chai
+ * @LastEditTime: 2021-03-15 15:21:00
+ */
+// 初始化state
+let initState = {
+    count: 0
+}
 
 // 基于原有state根据action得到新的state
-const counter = (state = { count: 0 }, action) => {
+const counter = (state = initState, action) => {
     const count = state.count
     switch (action.type) {
         case 'increase':
