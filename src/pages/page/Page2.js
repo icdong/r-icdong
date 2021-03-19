@@ -3,9 +3,8 @@
  * @Author: Daito Chai
  * @Date: 2021-03-12 14:57:18
  * @LastEditors: Daito Chai
- * @LastEditTime: 2021-03-16 16:35:13
+ * @LastEditTime: 2021-03-19 23:46:56
  */
-import React from 'react';
 import { Button } from 'antd';
 import { useSelector, useDispatch } from "react-redux";
 
@@ -20,5 +19,5 @@ const Page2 = () => {
         </div>
     )
 }
- 
+
 export default Page2;
