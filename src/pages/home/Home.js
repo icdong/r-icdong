@@ -3,7 +3,7 @@
  * @Author: Daito Chai
  * @Date: 2020-12-16 20:57:17
  * @LastEditors: Daito Chai
- * @LastEditTime: 2021-03-16 21:23:15
+ * @LastEditTime: 2021-03-22 13:55:21
  */
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
@@ -59,6 +59,9 @@ class Home extends React.Component {
                 </Link>
                 <Link to="/page2/" >
                     <div>hooks模式使用redux</div>
+                </Link>
+                <Link to="/page3/" >
+                    <div>生命周期</div>
                 </Link>
                 <CounterConnect />
             </div>
